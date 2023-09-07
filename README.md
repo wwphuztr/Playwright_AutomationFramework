@@ -1,28 +1,3 @@
-File structure:
-
-ENGYN-AUTOMATION/
-|-- common/
-|   	|-- CommonComponents.ts
-|   	|-- CommonPage.ts
-|   	|-- ...
-|-- ...
-|-- Enviroments/
-|   	|-- .dev.env
-|   	|-- .int.env
-|   	|-- .configVariables.ts
-|-- ...
-|-- pageObjects/
-|  	|-- LoginPage.ts
-|   	|-- RegistrationPage.ts
-|   	|-- ...
-|-- ...
-|-- tests2/
-|   	|-- HomePage.ts
-|   	|-- LoginPage.ts
-|   	|-- ...
-|-- ...
-|-- playwright.config.ts/
-
 Environments: This folder contains global objects that provide access to environment variables during runtime. Specifically, it will contain the URL, account name, partial URL, prefix, and suffix
 
 common: This folder is used to encapsulate functionalities and elements that are common across multiple pages of our application. This page class typically includes methods and locators that are reused across different pages to avoid duplication and easier to maintain.
